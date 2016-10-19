@@ -1,0 +1,25 @@
+{
+  "name": "highland-diverge",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "lint": "jshint *.js tests/*.js"
+  },
+  "dependencies": {
+    "highland": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "mocha": "^3.1.0"
+  },
+  "keywords": [
+    "highland"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apparentlymart/highland-diverge"
+  },
+  "homepage": "https://github.com/apparentlymart/highland-diverge",
+  "license": "MIT"
+}
