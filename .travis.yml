@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "0.12"
+  - "4.3.2"
+  - "4.5.0"
+  - "node"
+script: npm run lint && npm test
